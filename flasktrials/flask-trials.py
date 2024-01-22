@@ -18,6 +18,7 @@ def run_as_python_app():
 
         if 'logger' in globals():
             logging.error(message)
+
         else:
             print(F'ERROR: ' + message)
 
